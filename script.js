@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000/api/listar';
+const baseURL = 'https://aprende-js-546c8a7e0a7f.herokuapp.com/api/listar';
 
 const methodNameElement = document.getElementById('method-name');
 const methodDescriptionElement = document.getElementById('method-description');
