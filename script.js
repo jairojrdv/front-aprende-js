@@ -25,7 +25,6 @@ const generateMethod = async () => {
     }
     
     const data = await response.json();
-    console.log(Array.isArray(data));
     
     if (data && Array.isArray(data) && data.length > 0) {
       const randomIndex = Math.floor(Math.random() * data.length);
